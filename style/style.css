@@ -1,0 +1,29 @@
+#purple-text-container{
+    padding: 15px;
+    border-radius:5px;
+    background-color: green;
+}
+
+.purple-text-container{
+    background-color: pink;
+    color: white;
+    padding: 5px;
+    border: 3px solid blue;;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border-top-style: solid;
+    border-top-width: 3px;;
+    box-shadow: black;
+    font-family: Roboto,sans-serif;
+    cursor: pointer;
+
+}
+.purple-text-container :hover{
+    
+    background-color: blue;
+    color: cadetblue;
+}
+.purple-text-container + .purple-text-container{
+    margin-left: 15px;
+}
